@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+<link rel="stylesheet" href="chome1.css">
+</head>
+<body>
+    <div class="header">
+        <div class="welcome">
+            <h1>Welcome </span></h1>
+        </div>
+        <div class="logout">
+            <button id="logoutButton">Logout</button>
+        </div>
+    </div>
+    <div class="container">
+    <h1>Welcome to the Freelancer Platform</h1>
+    <div class="button-container">
+        <a href="Project1.jsp" class="button">Add Project</a>
+        <a href="cdisplay.jsp" class="button">Display Projects</a>
+    </div>
+</div>
+</body>
+</html>
+<script src="script.js"></script>
+<script>
+    document.getElementById('logoutButton').addEventListener('click', function() {
+        window.location.href = 'index.html'; 
+    });
+</script>
+    

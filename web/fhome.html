@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Freelancer Home</title>
+<link rel="stylesheet" href="fhome1.css" type="text/css"/>
+
+</head>
+<body>
+        <div class="header">
+            <div class="welcome">
+                <h1>Welcome <span id="freelancerName"></span></h1>
+            </div>
+            <div class="logout">
+                <button id="logoutButton">Logout</button>
+            </div>
+        </div>
+    <div class="container">
+            <h2>Assigned Projects</h2>
+            <div id="projectList">
+                <button id="display">Display Projects</button>
+            </div>
+    </div> 
+<script src="freelancer_home.js"></script>
+<script>
+    document.getElementById('logoutButton').addEventListener('click', function() {
+        window.location.href = 'index.html';
+    });
+    document.getElementById('display').addEventListener('click', function() {
+        window.location.href = 'fdisplay.jsp';
+    });
+</script>
+</body>
+</html>

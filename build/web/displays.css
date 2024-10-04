@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* White background */
+}
+
+header {
+    background-color: #ff7f50; /* Orange header */
+    color: #000000; /* Black text color */
+    padding: 10px 0;
+    text-align: center; /* Center align the text */
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #faebd7; /* AntiqueWhite header background */
+    color: #000000; /* Black text color */
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray background for even rows */
+}
+
+tr:hover {
+    background-color: #dddddd; /* Darker gray background on hover */
+}
+
+a {
+    color: #333333; /* Dark gray link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.logout button {
+    background-color: #007bff; /* Blue button background */
+    color: #ffffff; /* White button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.status-column {
+    width: 100px;
+    background-color: #ddd;
+}
